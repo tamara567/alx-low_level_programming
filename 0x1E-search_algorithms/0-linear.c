@@ -6,7 +6,7 @@ int recurse_helper(int *arr, size_t size, int val, size_t idx);
  * linear_search - search for value in an integer array
  * @array: pointer to array of ints
  * @size: size of array
- * @value: value to locate
+ * @value: is the value to locate
  *
  * Return: index of value; -1 if value not found
  */
@@ -22,8 +22,8 @@ int linear_search(int *array, size_t size, int value)
  * recurse_helper - recursive implement of linear search
  * @arr: pointer to array of ints
  * @size: size of array
- * @val: value to locate
- * @idx: current index
+ * @val: is the value to locate
+ * @idx: will be the current index
  *
  * Return: index of value; -1 if value not found
  */
